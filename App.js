@@ -5,6 +5,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { Button } from '@rneui/themed';
 import RootStackScreen from './Navigation/RootStack';
 import { NavigationContainer } from '@react-navigation/native';
+import AppNavigator from './Navigation/AppNavigator';
 
 export default function App() {
   return (
@@ -12,7 +13,8 @@ export default function App() {
       {/* <View style={styles.container}> */}
         {/* <Text>Hello World...!!!</Text> */}
         <NavigationContainer>
-          <RootStackScreen/>
+          {/* <RootStackScreen/> */}
+          <AppNavigator/>
         </NavigationContainer>
         <StatusBar style="auto" />
       {/* </View> */}

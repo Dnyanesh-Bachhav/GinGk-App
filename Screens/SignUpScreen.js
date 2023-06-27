@@ -1,12 +1,8 @@
 import { View, Text, StyleSheet, TextInput, Image, TouchableOpacity } from "react-native";
-import { Button, Divider, Input } from "@rneui/themed";
+import { Button, Divider } from "@rneui/themed";
 import { COLORS } from "../components/colors";
-import { CheckBox } from "@rneui/themed";
 import { useState } from "react";
-import { Entypo } from '@expo/vector-icons';
 import logo from "../assets/logo.png";
-import bg1 from "../assets/bg1.png";
-import { ImageBackground } from "react-native";
 import { Ionicons } from '@expo/vector-icons';
 
 
@@ -16,7 +12,7 @@ function SignUpScreen() {
   return (
     <View style={styles.container}>
         <View style={{ flexDirection: 'row', width: '100%', paddingHorizontal: 20 }} >
-            <TouchableOpacity style={{ backgroundColor: COLORS.white, borderRadius: "50%", elevation: 4, alignSelf: 'center', padding: 8 }} >
+            <TouchableOpacity style={{ backgroundColor: COLORS.white, borderRadius: 50, elevation: 4, alignSelf: 'center', padding: 8 }} >
                 <Ionicons name="arrow-back" size={24} color="black" />
             </TouchableOpacity>
             <Image source={ logo } style={{ width: 150, height: 150, resizeMode: "contain", alignSelf: 'center', marginLeft: 50 }} />
