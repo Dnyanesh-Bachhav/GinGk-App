@@ -62,6 +62,7 @@ function LoginScreen() {
           </View>
           <Text style={{ color: COLORS.cyan, fontWeight: "bold" }} >Forgot Password</Text>
         </View>
+
         <Button
           title={"Login"}
           buttonStyle={{
