@@ -25,9 +25,9 @@ function BottomNavigator(){
                 tabBarIcon: ({ focused })=>{
                     return(
                         <View style={{ justifyContent: 'center', alignItems: 'center' }} >
-                            <Entypo name="home" size={24} color={ focused ? COLORS.success : COLORS.gray }/>
-                            {/* <Feather name="copy" size={24} color={focused ? COLORS.success : COLORS.gray}/> */}
-                            <Text style={{ fontSize: 10, color: focused ? COLORS.success : COLORS.gray}}>HOME</Text>
+                            <Entypo name="home" size={24} color={ focused ? COLORS.success : COLORS.grayDark }/>
+                            {/* <Feather name="copy" size={24} color={focused ? COLORS.success : COLORS.grayDark}/> */}
+                            <Text style={{ fontSize: 10, color: focused ? COLORS.success : COLORS.grayDark}}>HOME</Text>
                         </View>
                     );
                 }
@@ -42,8 +42,8 @@ function BottomNavigator(){
                     return(
                         // <Entypo name="home" size={24} color="black" />
                         <View style={{ justifyContent: 'center', alignItems: 'center' }} >
-                            <Feather name="copy" size={24} color={focused ? COLORS.success : COLORS.gray}/>
-                            <Text style={{ fontSize: 10, color: focused ? COLORS.success : COLORS.gray}}>SHOWCASE</Text>
+                            <Feather name="copy" size={24} color={focused ? COLORS.success : COLORS.grayDark}/>
+                            <Text style={{ fontSize: 10, color: focused ? COLORS.success : COLORS.grayDark}}>SHOWCASE</Text>
                         </View>
 
                     );
@@ -60,8 +60,8 @@ function BottomNavigator(){
                 tabBarIcon: ({ focused })=>{
                     return(
                         <View style={{ justifyContent: 'center', alignItems: 'center' }} >
-                            <Entypo name="shop" size={24} color={focused ? COLORS.success : COLORS.gray}/>
-                            <Text style={{ fontSize: 10, color: focused ? COLORS.success : COLORS.gray}}>MARKETPLACE</Text>
+                            <Entypo name="shop" size={24} color={focused ? COLORS.success : COLORS.grayDark}/>
+                            <Text style={{ fontSize: 10, color: focused ? COLORS.success : COLORS.grayDark}}>MARKETPLACE</Text>
                         </View>
                         // <Entypo name="home" size={24} color="black" />
                     );
@@ -76,8 +76,8 @@ function BottomNavigator(){
                 tabBarIcon: ({ focused })=>{
                     return(
                         <View style={{ justifyContent: 'center', alignItems: 'center' }} >
-                            <AntDesign name="appstore-o" size={24} color={focused ? COLORS.success : COLORS.gray}/>
-                            <Text style={{ fontSize: 10, color: focused ? COLORS.success : COLORS.gray}}>SERVICES</Text>
+                            <AntDesign name="appstore-o" size={24} color={focused ? COLORS.success : COLORS.grayDark}/>
+                            <Text style={{ fontSize: 10, color: focused ? COLORS.success : COLORS.grayDark}}>SERVICES</Text>
                         </View>
                     );
                 }
