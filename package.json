@@ -21,7 +21,10 @@
     "react": "18.2.0",
     "react-native": "0.71.8",
     "react-native-gesture-handler": "~2.9.0",
+<<<<<<< HEAD
     "react-native-reanimated": "~2.14.4",
+=======
+>>>>>>> 224d7e3b9ee9dd83e583c15803d8bf98da063d35
     "react-native-safe-area-context": "4.5.0",
     "react-native-screens": "~3.20.0",
     "react-native-vector-icons": "^9.2.0"
